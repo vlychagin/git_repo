@@ -17,6 +17,8 @@ namespace EnvironmentInfo
             
             Console.WriteLine("Master");
 
+            Console.WriteLine("Branch 2");
+
             Console.WriteLine($"{(new DriveInfo("c:").TotalFreeSpace) / 1024 / 1024:n0} МБайт");
             Console.Write("\n\n\t");
         }
