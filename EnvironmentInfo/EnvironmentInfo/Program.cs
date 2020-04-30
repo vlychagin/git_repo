@@ -19,6 +19,8 @@ namespace EnvironmentInfo
             int t = 45;
             int r = t + 3;
 
+            // Это ветвь проекта для Ольги
+
             Console.WriteLine($"{(new DriveInfo("c:").TotalFreeSpace) / 1024 / 1024:n0} МБайт");
             Console.Write("\n\n\t");
         }
