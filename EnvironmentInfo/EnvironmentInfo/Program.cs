@@ -16,6 +16,7 @@ namespace EnvironmentInfo
             Console.WriteLine($"Компьютер: {Environment.MachineName}, версия ОС: {Environment.OSVersion}");
             
             Console.WriteLine("Master + Branch 2");
+            int s = 3;
 
             Console.WriteLine($"{(new DriveInfo("c:").TotalFreeSpace) / 1024 / 1024:n0} МБайт");
             Console.Write("\n\n\t");
